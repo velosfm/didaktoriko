@@ -1,4 +1,54 @@
+<!DOCTYPE html>
 
+<!-- define angular app -->
+<html ng-app="scotchApp">
+
+<head>
+  <title>Εκπόνηση Διδακτορικών Διατριβών - Ακαδημαϊκή Υποστήριξη Διδακτορικής Διατριβής</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Υποστήριξη διδακτόρων, διδακτορικό, διδακτορικά, διδακτορικο, διδακτορικα, phd, didaktorika.gr, didaktoriko.gr, didaktorika, didaktoriko, DIDAKTORIKO, DIDAKTORIKA, ΔΙΔΑΚΤΟΡΙΚΟ, ΔΙΔΑΚΤΟΡΙΚΑ, ΔΙΔΑΚΤΟΡΙΚΌ, ΔΙΔΑΚΤΟΡΙΚ." />
+<meta charset="utf-8">
+  <!-- SCROLLS -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+  <link rel="stylesheet" href="stylesheets/style.css" />
+  <link rel="icon" href="http://www.didaktoriko.gr/img/phd.gif" type="image/x-icon" />
+  <!-- SPELLS -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+  <script src="https://use.fontawesome.com/664ad9b975.js"></script>
+  <script src="javascripts/script.js"></script>
+</head>
+
+<!-- define angular controller -->
+<body ng-controller="mainController">
+
+  <nav class="navbar navbar-top">
+    <div class="container">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+        <li><a href="#metaptixiakes"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Μεταπτυχιακές Διατριβές | MSc & MBA</a></li>
+        <li><a href="#didaktorikes"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Διδακτορικές Διατριβές | PhD</a></li>
+        <li><a href="#ptixiakes"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Πτυχιακές Εργασίες | Dissertations</a></li>
+        <li><a href="#contact"><i class="fa fa-address-book"></i> Επικοινωνία | Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+    <div class="rd-navbar-brand">
+      <a href="index.html" class="reveal-inline-block">
+        <div class="unit unit-xs-middle unit-xl unit-xl-horizontal unit-spacing-xxs">
+          <div class="unit-left"><img width="157" height="108" src="images/logo-170x172.png" alt=""></div>
+          <div class="unit-body text-xl-left">
+            <div class="rd-navbar-brand-title">Εκπόνηση Διδακτορικού</div>
+          </div>
+        </div>
+      </a>
+    </div>
+  <div id="main">
+  
+    <!-- angular templating -->
+		<!-- this is where content will be injected -->
+    <div ng-view>
 <div class="jumbotron text-center">
 	<h1>Μεταπτυχιακές Διατριβές | MSc & MBA</h1>
 </div>
@@ -37,3 +87,12 @@
 		</div>
 	</div>
 </div>
+</div>
+</div>
+  <footer class="text-center">
+    <p>Copyright © 2018 | All rights reserved | Powered by Didaktoriko.gr</p>
+
+  </footer>
+  
+</body>
+</html>
