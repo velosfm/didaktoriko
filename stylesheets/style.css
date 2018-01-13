@@ -1,0 +1,34 @@
+.rd-navbar-brand {
+    text-align: center;
+}
+
+nav.navbar.navbar-top {
+    background: #01a2a6;
+}
+
+nav.navbar.navbar-top a:link{
+    color: #ffffff;
+}
+
+.jumbotron.text-center {
+    background: #01a2a6;
+    color: #ffffff;
+}
+
+nav.navbar.navbar-top  a:active,
+nav.navbar.navbar-top  a:hover,
+nav.navbar.navbar-top  a:visited,
+nav.navbar.navbar-top  a:focus {
+    background: #1A2B40;
+    color: #ffffff;
+}
+
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #01a2a6;
+    border-color: #ddd;
+}
+
+p.prgrf-text {
+    font-size: 20px;
+}
